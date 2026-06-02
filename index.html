@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Luyện thi TSA - Bộ đề trọng tâm Khoa Học. Thi thử trực tuyến với đáp án và giải thích chi tiết." />
+  <title>TSA Practice Test – Luyện Thi Khoa Học</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+
+    <!-- ═══ Header ═══ -->
+    <header class="app-header">
+      <div class="app-header__logo">
+        <div class="app-header__icon">🧪</div>
+        <h1 class="app-header__title">TSA Practice</h1>
+      </div>
+      <p class="app-header__subtitle">Bộ Đề Trọng Tâm – Khoa Học</p>
+    </header>
+
+    <!-- ═══ Home Screen ═══ -->
+    <section class="screen active" id="screen-home">
+      <div class="exam-list" id="exam-list">
+        <!-- Rendered by JS -->
+      </div>
+    </section>
+
+    <!-- ═══ Quiz Screen ═══ -->
+    <section class="screen" id="screen-quiz">
+      <!-- Toolbar -->
+      <div class="quiz-toolbar">
+        <div class="quiz-toolbar__left">
+          <button class="quiz-toolbar__back" id="btn-back-home" title="Thoát">✕</button>
+          <div class="quiz-toolbar__progress-text" id="quiz-progress-text">Câu <span>1</span> / 6</div>
+        </div>
+        <div class="quiz-toolbar__timer" id="quiz-timer">
+          <span class="icon">⏱</span>
+          <span class="timer-value">15:00</span>
+        </div>
+      </div>
+
+      <!-- Progress bar -->
+      <div class="quiz-progress">
+        <div class="quiz-progress__bar" id="quiz-progress-bar" style="width: 16.6%"></div>
+      </div>
+
+      <!-- Question nav dots -->
+      <div class="question-nav" id="question-nav"></div>
+
+      <!-- Passage -->
+      <div class="passage-card" id="passage-card">
+        <div class="passage-card__toggle" id="passage-toggle">
+          <div class="passage-card__label">
+            <span class="icon">📖</span> Bài đọc
+          </div>
+          <span class="passage-card__chevron">▾</span>
+        </div>
+        <div class="passage-card__content">
+          <div class="passage-card__text" id="passage-text"></div>
+        </div>
+      </div>
+
+      <!-- Question container -->
+      <div id="question-container"></div>
+
+      <!-- Actions -->
+      <div class="quiz-actions" id="quiz-actions"></div>
+    </section>
+
+    <!-- ═══ Result Screen ═══ -->
+    <section class="screen" id="screen-result">
+      <div class="result-hero">
+        <div class="result-hero__score-ring">
+          <svg viewBox="0 0 160 160">
+            <defs>
+              <linearGradient id="gradientGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#22c55e" />
+                <stop offset="100%" stop-color="#06b6d4" />
+              </linearGradient>
+              <linearGradient id="gradientAmber" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#f59e0b" />
+                <stop offset="100%" stop-color="#ef4444" />
+              </linearGradient>
+              <linearGradient id="gradientRed" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#ef4444" />
+                <stop offset="100%" stop-color="#dc2626" />
+              </linearGradient>
+            </defs>
+            <circle class="ring-bg" cx="80" cy="80" r="70" />
+            <circle class="ring-fill" id="ring-fill" cx="80" cy="80" r="70" />
+          </svg>
+          <div class="result-hero__score-value">
+            <div class="result-hero__score-num" id="result-score-num">0</div>
+            <div class="result-hero__score-total" id="result-score-total">trên 6 câu</div>
+          </div>
+        </div>
+        <div class="result-hero__message" id="result-message">🎉 Xuất sắc!</div>
+        <div class="result-hero__sub" id="result-sub">Kết quả tuyệt vời!</div>
+      </div>
+
+      <div class="result-stats">
+        <div class="result-stat">
+          <div class="result-stat__value result-stat__value--green" id="stat-correct">0</div>
+          <div class="result-stat__label">Đúng</div>
+        </div>
+        <div class="result-stat">
+          <div class="result-stat__value result-stat__value--red" id="stat-incorrect">0</div>
+          <div class="result-stat__label">Sai</div>
+        </div>
+        <div class="result-stat">
+          <div class="result-stat__value result-stat__value--cyan" id="stat-time">0:00</div>
+          <div class="result-stat__label">Thời gian</div>
+        </div>
+      </div>
+
+      <div class="review-section">
+        <div class="review-section__title">📋 Chi Tiết Từng Câu</div>
+        <div id="review-list"></div>
+      </div>
+
+      <div class="result-actions">
+        <button class="btn btn--primary btn--large" id="btn-retry" style="flex:1">🔄 Thi lại</button>
+        <button class="btn btn--secondary btn--large" id="btn-go-home" style="flex:1">🏠 Về trang chủ</button>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Submit Confirmation Modal -->
+  <div class="modal-overlay" id="submit-modal">
+    <div class="modal">
+      <div class="modal__icon">📝</div>
+      <div class="modal__title">Nộp bài?</div>
+      <div class="modal__text" id="modal-text">Bạn có chắc muốn nộp bài?</div>
+      <div class="modal__actions">
+        <button class="btn btn--secondary" id="modal-cancel">Huỷ</button>
+        <button class="btn btn--success" id="modal-confirm">Nộp bài</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="data/exam1.js"></script>
+  <script src="data/exam2.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

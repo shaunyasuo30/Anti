@@ -1,0 +1,100 @@
+BỘ ĐỀ TRỌNG TÂM - KHOA HỌC
+BÀI ĐỌC SỐ 01 - Lớp 11, hoá hữu cơ, hydrogen carbon
+Source: Bộ Đề Trọng Tâm - Khoa Học.pdf
+
+Started on --
+State Finished
+Completed on --
+Time taken --
+Marks 6.00/6.00
+Grade 10.00 out of 10.00 (100%)
+
+Sử dụng thông tin trong văn bản sau để trả lời các câu hỏi từ số 1 đến số 6
+
+Chỉ số octan là đại lượng tiêu chuẩn đặc trưng cho tính chống kích nổ của nhiên liệu (khả năng chịu nén). Giá trị octan càng cao thì tính chống kích nổ của nhiên liệu trước khi phát nổ (đốt cháy) càng lớn. Thực tế, nhiên liệu có chỉ số octan cao thường được sử dụng trong động cơ xăng hiệu suất cao vì đòi hỏi tỉ số nén lớn. Ngược lại, nhiên liệu có giá trị octan thấp hơn (với chỉ số cetane - khả năng tự bốc cháy cao hơn) phù hợp với động cơ diesel. Việc sử dụng loại xăng có chỉ số octan thấp hơn đối với động cơ xe trong thời gian dài có thể ảnh hưởng rất xấu đến tình trạng xe như: phá huỷ động cơ xe, khiến xe vận hành kém hơn, có thể dẫn tới việc cháy nổ, làm quá nhiệt gây hỏng động cơ của xe.
+
+Quá trình reforming xúc tác được áp dụng trong công nghiệp để nâng cấp phân đoạn naphtha có trị số octan thấp thành sản phẩm có trị số octan cao, đồng thời là quá trình chủ yếu sản xuất hydrocarbon thơm có độ tinh khiết cao.
+
+Vì mục đích sản xuất, một hộ gia đình dùng máy phát điện công suất 2 kW chạy bằng loại xăng A92. Giả sử xăng chỉ chứa 4 chất với thành phần số mol như sau:
+
+| Chất | C7H16 | C8H18 | C9H20 | C10H22 |
+|---|---:|---:|---:|---:|
+| Phần trăm số mol (%) | 4 | 60 | 32 | 4 |
+
+Trong một ngày gia đình cần chạy máy phát 4 giờ. Biết lượng tiêu hao xăng trung bình là 680 g/kWh, khối lượng riêng của xăng 800 gam/lít. Giả định quá trình đốt nhiên liệu là oxi hoá hoàn toàn.
+
+1
+Question
+Correct
+Mark 1.00 out of
+1.00
+TSA 01: Phát biểu sau đây đúng hay sai?
+Tính chống kích nổ của xăng A92 kém hơn xăng A95.
+Select one:
+a. Đúng ✓
+b. Sai
+The correct answer is: Đúng
+
+2
+Question
+Correct
+Mark 1.00 out of
+1.00
+TSA 02: Phát biểu nào sau đây đúng?
+Select one:
+a. Động cơ xăng thường sử dụng nhiên liệu có chỉ số octan thấp.
+b. Giá trị octan càng cao thì khả năng chịu nén của nhiên liệu trước khi phát nổ càng lớn. ✓
+c. Quá trình reforming xúc tác làm giảm chỉ số octan.
+d. Nhiên liệu có giá trị octan thấp hơn (với chỉ số cetane - khả năng tự bốc cháy cao hơn) phù hợp với động cơ diesel.
+The correct answer is: Giá trị octan càng cao thì khả năng chịu nén của nhiên liệu trước khi phát nổ càng lớn.
+
+--- PAGE BREAK ---
+
+3
+Question
+Correct
+Mark 1.00 out of
+1.00
+TSA 03: Phát biểu sau đây đúng hay sai?
+Nếu sử dụng loại xăng có chỉ số octan thấp hơn đối với dòng xe trong thời gian dài có thể ảnh hưởng rất xấu đến tình trạng xe.
+Select one:
+a. Đúng ✓
+b. Sai
+The correct answer is: Đúng
+
+4
+Question
+Correct
+Mark 1.00 out of
+1.00
+TSA 04: Một bóng điện có công suất 100 W. Lượng điện tiêu thụ của bóng điện trên trong vòng 2 giờ là
+Select one:
+a. 100 Wh.
+b. 50 Wh.
+c. 200 Wh. ✓
+d. 50Wh.
+The correct answer is: 200 Wh.
+
+--- PAGE BREAK ---
+
+5
+Question
+Correct
+Mark 1.00 out of
+1.00
+TSA 05: Điền số thích hợp vào chỗ trống.
+Trong 30 ngày máy phát điện của hộ gia đình trên tiêu tốn ______ lít xăng.
+The correct answer is: 204
+
+6
+Question
+Correct
+Mark 1.00 out of
+1.00
+TSA 06: Trong một ngày, máy phát điện thải ra ngoài môi trường thể tích CO2 lít (đkc) là
+Select one:
+a. 9471. ✓
+b. 13927.
+c. 1132.
+d. 2018.
+The correct answer is: 9471.

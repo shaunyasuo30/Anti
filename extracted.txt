@@ -1,0 +1,129 @@
+BỘ ĐỀ TRỌNG TÂM - KHOA HỌC
+BÀI ĐỌC SỐ 02 - Lớp 11, hoá hữu cơ, đại cương hydrogen carbon
+Source: Bộ Đề Trọng Tâm - Khoa Học.pdf
+Started on --
+State Finished
+Completed on --
+Time taken --
+Marks 8.00/8.00
+Grade 10.00 out of 10.00 (100%)
+Sử dụng thông tin trong văn bản sau để trả lời các câu hỏi từ số 1 đến số 8
+Cho mô hình các phân tử sau:
+Các hình cầu màu đen (hình cầu tại điểm gấp khúc) là nguyên tử carbon; còn lại là các nguyên tử hydrogen. Mỗi nguyên tử carbon đều ở trạng thái lai hoá sp3, bốn orbital lai hoá hướng về 4 đỉnh của một tứ diện. Bốn orbital lai hoá tham gia xen phủ với các orbital của nguyên tử hydrogen hoặc carbon bên cạnh, tạo ra các liên kết xích ma (σ). Các liên kết này khá bền, khó bị phá vỡ bởi acid, base và muối.
+1
+Question
+Correct
+Mark 1.00 out of
+1.00
+TSA 01: Phát biểu sau đây đúng hay sai?
+Phân tử CH4 có cấu trúc hình tứ diện đều.
+Select one:
+a. Đúng ✓
+b. Sai
+The correct answer is: Đúng
+--- PAGE BREAK ---
+2
+Question
+Correct
+Mark 1.00 out of
+1.00
+TSA 02: Hai chất (III), (IV) được gọi là __________ của nhau.
+The correct answer is: Đồng phân
+--- PAGE BREAK ---
+3
+Question
+Correct
+Mark 1.00 out of
+1.00
+TSA 03: Phân tử (II) có số liên kết xích ma (σ) là
+Select one:
+a. 6.
+b. 7. ✓
+c. 8.
+d. 1.
+The correct answer is: 7.
+--- PAGE BREAK ---
+4
+Question
+Correct
+Mark 1.00 out of
+1.00
+TSA 04: Phát biểu sau đây đúng hay sai?
+Phân tử (III) có 4 nguyên tử carbon đều thuộc cùng một mặt phẳng.
+Select one:
+a. Đúng
+b. Sai ✓
+The correct answer is: Sai
+--- PAGE BREAK ---
+5
+Question
+Correct
+Mark 1.00 out of
+1.00
+TSA 05: Bốn chất (I), (II), (III), (IV) thuộc cùng dãy đồng đẳng có tên là
+Select one:
+a. alkane. ✓
+b. alkene.
+c. alkyne.
+d. alkadien.
+The correct answer is: alkane.
+--- PAGE BREAK ---
+6
+Question
+Correct
+Mark 1.00 out of
+1.00
+TSA 06: Kéo và thả các cụm từ thích hợp ở cột B sang cột A cho phù hợp?
+Cột A
+Cột B
+Chất (IV) có mạch carbon ___(a)___
+(1) 109,5°
+Chất (II) có độ dài liên kết C-C là ___(b)___
+(2) phân nhánh
+Chất (I) có góc liên kết HCH là ___(c)___
+(3) 153 pm
+Chất (III) có số liên kết C-H là ___(d)___
+(4) 10
+(5) 6
+(6) 111°
+The correct answer is: a - phân nhánh; b - 153 pm; c - 109,5°; d - 10.
+--- PAGE BREAK ---
+7
+Question
+Correct
+Mark 1.00 out of
+1.00
+TSA 07: Khi phân tử (IV) tham gia phản ứng halogen hoá với phân tử chlorine thì thu được tối đa số dẫn xuất chứa 2 nguyên tử chlorine là
+Select one:
+a. 4.
+b. 5.
+c. 3. ✓
+d. 2.
+The correct answer is: 3.
+--- PAGE BREAK ---
+8
+Question
+Correct
+Mark 1.00 out of
+1.00
+TSA 08: Lựa chọn phương án đúng/sai:
+STT
+Nội dung phát biểu
+Đáp án
+1
+Ở điều kiện thường, bốn chất trên đều không tác dụng với acid, base và các chất oxi hoá như KMnO4, K2Cr2O7...
+Đúng ✓
+2
+Trong dãy đồng đẳng của methane, từ C4H10 trở đi có đồng phân cấu tạo.
+Đúng ✓
+3
+Phân tử (III), (IV) thì độ dài liên kết C-C lớn hơn C-H.
+Đúng ✓
+4
+Đốt cháy hoàn toàn cùng một khối lượng hai chất (II), (III) thì chất cho số mol CO2 nhiều hơn là chất (II).
+Sai ✓
+5
+Chất (IV) có tên là 2-methyl butane.
+Sai ✓
+The correct answer is: Đúng - Đúng - Đúng - Sai - Sai
+--- PAGE BREAK ---
