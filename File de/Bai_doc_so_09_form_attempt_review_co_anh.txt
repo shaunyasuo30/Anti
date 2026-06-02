@@ -1,0 +1,111 @@
+BỘ ĐỀ TRỌNG TÂM - KHOA HỌC
+BÀI ĐỌC SỐ 09 - Lớp 11, hoá hữu cơ, alcohol
+Source: Bộ Đề Trọng Tâm - Khoa Học.pdf
+Started on --
+State Finished
+Completed on --
+Time taken --
+Marks 7.00/7.00
+Grade 10.00 out of 10.00 (100%)
+Sử dụng thông tin trong văn bản sau để trả lời các câu hỏi từ số 1 đến số 7
+Vitamin là những hợp chất hữu cơ mà cơ thể không thể tự tổng hợp được, phần lớn phải lấy từ bên ngoài vào qua các loại thực phẩm sử dụng hằng ngày. Vitamin tồn tại trong cơ thể với một lượng nhỏ nhưng đóng vai trò quan trọng trong việc duy trì sự sống cũng như các hoạt động sống của cơ thể.
+Vitamin A (retinol) có màu vàng, không tan trong nước, hoà tan tốt trong dầu, rất cần thiết cho thị lực và phát triển xương. Vitamin A tương tự như các loại vitamin khác, là một chất dinh dưỡng thiết yếu cho con người như việc duy trì thị lực, tăng trưởng cơ thể, chức năng miễn dịch và sức khoẻ sinh sản. Người ta dùng UI (International Units) để đo đơn vị dinh dưỡng của vitamin có trong các loại thực phẩm rau củ. 1 UI vitamin A tương đương 0,3 µg retinol.
+Vitamin A (retinol) có nhiều trong carot, súp lơ, lạc, khoai lang, bí ngô, bơ, xoài... Trong 1 củ cà rốt lên đến 7835 IU (một đơn vị đo lường cho các giá trị của một chất) và 100 g cà rốt cung cấp 17033 IU, tương ứng với lượng vitamin A cần cho 2 người trong 1 ngày. Vitamin A trong cà rốt được hình thành dưới dạng beta-carotene, do đó chúng còn có khả năng chống oxy hoá, bảo vệ sức khoẻ. Ngoài lượng vitamin A dồi dào, trong cà rốt còn chứa rất nhiều vitamin B, C, K, chất xơ và magie, đều là những chất có lợi cho cơ thể.
+
+Công thức cấu tạo của vitamin A (retinol) được biểu diễn như hình dưới
+
+1
+Question
+Correct
+Mark 1.00 out of
+1.00
+TSA 01: Phát biểu sau đây đúng hay sai?Vitamin là những hợp chất hữu cơ mà cơ thể tự tổng hợp được.
+Select one:
+a. Đúng
+b. Sai ✓
+The correct answer is: Sai
+--- PAGE BREAK ---
+2
+Question
+Correct
+Mark 1.00 out of
+1.00
+TSA 02: Điền từ hoặc cụm từ thích hợp vào chỗ trống. Vitamin tồn tại trong cơ thể với một lượng ___(a)___ nhưng đóng vai trò quan trọng trong việc ___(b)___ cũng như các hoạt động sống của cơ thể.
+The correct answer is: a - nhỏ; b - duy trì sự sống
+--- PAGE BREAK ---
+3
+Question
+Correct
+Mark 1.00 out of
+1.00
+TSA 03: Cứ 100 gam cà rốt cung cấp 17033 IU. Vậy 300 gam cà rốt tương ứng với lượng vitamin A cần cho bao nhiêu người trong 1 ngày?
+Select one:
+a. 4.
+b. 6. ✓
+c. 8.
+d. 3.
+The correct answer is: 6.
+--- PAGE BREAK ---
+4
+Question
+Correct
+Mark 1.00 out of
+1.00
+TSA 04: Thành phần phần trăm khối lượng của nguyên tố hidro có trong vitamin A là
+Select one:
+a. 10,84%.
+b. 10,14%.
+c. 10,49%. ✓
+d. 5,59%.
+The correct answer is: 10,49%.
+--- PAGE BREAK ---
+5
+Question
+Correct
+Mark 1.00 out of
+1.00
+TSA 05: Khi cho 1 mol retinol tác dụng với Na dư thì số mol H₂ thu được là
+Select one:
+a. 1.
+b. 2.
+c. 0,5. ✓
+d. 0,25.
+The correct answer is: 0,5.
+--- PAGE BREAK ---
+6
+Question
+Correct
+Mark 1.00 out of
+1.00
+TSA 06: Lựa chọn phương án đúng/sai:
+STT
+Nội dung phát biểu
+Đáp án
+1
+Vitamin A (retinol) có nhiều trong carot, súp lơ, lạc, khoai lang, bí ngô, bơ, xoài...
+Đúng ✓
+2
+Trong cà rốt còn chứa rất nhiều vitamin B, C, K, chất xơ và magie, đều là những chất có lợi cho cơ thể.
+Đúng ✓
+3
+Vitamin A (retinol) dễ hoà tan trong nước.
+Sai ✓
+4
+Vitamin A (retinol) thuộc loại ancol không no, mạch hở.
+Sai ✓
+5
+Vitamin A (retinol) chứa 6 liên kết π (pi).
+Sai ✓
+The correct answer is: Đúng - Đúng - Sai - Sai - Sai
+--- PAGE BREAK ---
+7
+Question
+Correct
+Mark 1.00 out of
+1.00
+TSA 07: Kéo và thả các công thức phân tử thích hợp vào mỗi chỗ trống?
+Các cụm từ: C₂H₂O₂; CH₂O; C₂H₄O₂; C₃H₄O₂; C₁₀H₁₆O₃; C₁₀H₁₄O₃.
+
+Thực hiện phản ứng ozone phân retinol (giả sử nhóm chức OH không bị oxi hoá trong phản ứng này), các sản phẩm hữu cơ X, Y, Z, T (khối lượng mol lớn dần và đều chứa các nguyên tố C, H, O). Công thức phân tử lần lượt X, Y, Z, T tương ứng là ___, ___, ___, ___.
+The correct answer is: C₂H₂O₂; C₂H₄O₂; C₃H₄O₂; C₁₀H₁₆O₃
+--- PAGE BREAK ---
