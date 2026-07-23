@@ -40,9 +40,14 @@
   // ─── LocalStorage ─────────────────────────────────────────────
   const STORAGE_KEY = 'tsa_practice_results';
 
+  function safeParseJSON(str) {
+    try { return JSON.parse(str); } catch (_) { return null; }
+  }
+
   function loadResults() {
-    try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {}; }
-    catch { return {}; }
+    const raw = localStorage.getItem(STORAGE_KEY);
+    const parsed = safeParseJSON(raw);
+    return parsed || {};
   }
 
   function saveResult(examId, result) {
@@ -251,7 +256,32 @@
           });
         });
       }
-      // True-false toggle buttons get their events inside renderTrueFalse
+      // True-false toggle buttons
+      if (q.type === 'true-false') {
+        container.querySelectorAll('.tf-btn').forEach(btn => {
+          btn.addEventListener('click', () => {
+            if (state.quizSubmitted) return;
+            const sIdx = parseInt(btn.dataset.s, 10);
+            const val = btn.dataset.val === 'true';
+
+            if (!state.answers[idx]) state.answers[idx] = {};
+            state.answers[idx][sIdx] = val;
+
+            const row = document.getElementById(`tf-stmt-${idx}-${sIdx}`);
+            if (row) {
+              row.querySelectorAll('.tf-btn').forEach(b => {
+                if (b.dataset.val === (val ? 'true' : 'false')) {
+                  b.classList.add('tf-btn--selected');
+                } else {
+                  b.classList.remove('tf-btn--selected');
+                }
+              });
+            }
+
+            renderNavDots();
+          });
+        });
+      }
     }
   }
 
@@ -271,7 +301,7 @@
       let falseClass = 'tf-btn';
 
       if (userVal === true) trueClass += ' tf-btn--selected';
-      if (userVal === false) falseClass += ' tf-btn--selected';
+      else if (userVal === false) falseClass += ' tf-btn--selected';
 
       if (submitted) {
         trueClass += ' tf-btn--disabled';
@@ -304,35 +334,6 @@
     if (q.statements.length > 1) {
       html += `<div class="tf-note">⚠️ Phải trả lời đúng <strong>tất cả</strong> các phát biểu mới được điểm.</div>`;
     }
-
-    // Attach events after a tick (DOM needs to be rendered first)
-    setTimeout(() => {
-      document.querySelectorAll(`.tf-statement [data-q="${qIdx}"]`).forEach(btn => {
-        if (state.quizSubmitted) return;
-        btn.addEventListener('click', () => {
-          const sIdx = parseInt(btn.dataset.s);
-          const val = btn.dataset.val === 'true';
-
-          if (!state.answers[qIdx]) state.answers[qIdx] = {};
-          state.answers[qIdx][sIdx] = val;
-
-          // Update DOM directly instead of full re-render
-          const row = document.getElementById(`tf-stmt-${qIdx}-${sIdx}`);
-          if (row) {
-            const btns = row.querySelectorAll('.tf-btn');
-            btns.forEach(b => {
-               if (b.dataset.val === (val ? 'true' : 'false')) {
-                 b.classList.add('tf-btn--selected');
-               } else {
-                 b.classList.remove('tf-btn--selected');
-               }
-            });
-          }
-
-          renderNavDots();
-        });
-      });
-    }, 10);
 
     return html;
   }
@@ -480,7 +481,7 @@
 
     const modal = $('#submit-modal');
     $('#modal-text').textContent = unanswered > 0
-      ? `Bạn đã trả lời ${answered}/${total} câu. Còn ${unanswered} câu chưa trả lời. Bạn có chắc muốn nộp bài?`
+      ? `Bạn đã trả lời ${answered}/${total} câu. Còn ${unanswered} câu. Bạn có chắc muốn nộp bài?`
       : `Bạn đã trả lời tất cả ${total} câu. Nộp bài ngay?`;
 
     modal.classList.add('active');
@@ -593,7 +594,7 @@
         // Multiple choice
         const userOpt = q.options.find(o => o.value === userAns);
         const correctOpt = q.options.find(o => o.value === q.correctAnswer);
-        const userDisplay = !answered ? 'Chưa trả lời' : `${userAns.toUpperCase()}. ${userOpt?.label || ''}`;
+        const userDisplay = !answered ? 'Chưa trả lời' : `${String(userAns).toUpperCase()}. ${userOpt?.label || ''}`;
         const correctDisplay = `${q.correctAnswer.toUpperCase()}. ${correctOpt?.label || ''}`;
 
         if (correct) {
@@ -654,6 +655,29 @@
     return html;
   }
 
+function createFallingPetals() {
+  const container = document.querySelector('.flower-bg');
+  if (!container) return;
+  const spawn = () => {
+    const petal = document.createElement('div');
+    petal.className = 'petal';
+    // Random size (16px to 38px)
+    const size = Math.random() * 22 + 16;
+    petal.style.width = `${size}px`;
+    petal.style.height = `${size * 1.25}px`;
+    petal.style.left = `${Math.random() * 100}%`;
+    // Duration between 4.5s and 9s
+    const dur = Math.random() * 4.5 + 4.5;
+    petal.style.animation = `fallPetal ${dur}s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite`;
+    container.appendChild(petal);
+    setTimeout(() => petal.remove(), dur * 1000);
+  };
+  // Initial burst
+  for (let i = 0; i < 60; i++) spawn();
+  // Continuous spawn for dense falling petals
+  setInterval(spawn, 250);
+}
+
   // ─── Passage Toggle ───────────────────────────────────────────
   function bindPassageToggle() {
     const toggle = $('#passage-toggle');
@@ -691,6 +715,8 @@
   function initKeyboard() {
     document.addEventListener('keydown', e => {
       if (state.currentScreen !== 'quiz' || state.quizSubmitted) return;
+      if (['INPUT', 'TEXTAREA'].includes(e.target.tagName)) return;
+
       const q = state.currentExam.questions[state.currentQuestion];
 
       if (e.key === 'ArrowRight' || e.key === 'ArrowDown') { e.preventDefault(); goToQuestion(state.currentQuestion + 1); }
@@ -708,6 +734,7 @@
     renderHome();
     initGlobalNav();
     initKeyboard();
+    createFallingPetals();
 
     // Watch for passage toggle
     const obs = new MutationObserver(bindPassageToggle);
